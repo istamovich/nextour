@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.Swiper-end {
+  width: 100%;
+  height: 450px;
+  position: relative; /* Absolut joylashuv uchun baza */
+}
+.Swiper-end .swiper_chiled {
+  width: 415px;
+  height: auto;
+  position: relative;
+}
+.Swiper-end .swiper_chiled img {
+  width: 250px;
+  height: 140px;
+  border-radius: 26px 0 0 26px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+.Swiper-end .swiper_chiled .text {
+  width: 250px !important;
+  height: 330px !important;
+  position: absolute;
+  z-index: 5;
+  background-color: #fff;
+  border-radius: 23px;
+  right: 0;
+  top: 10%;
+  transform: translateY(-20%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+.Swiper-end .swiper_chiled .text h3 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  text-align: start;
+  padding-bottom: 10px;
+  border-bottom: 0.1px solid rgb(185, 181, 181);
+}
+.Swiper-end .swiper_chiled .text h3 span {
+  color: gray;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Swiper-end .swiper_chiled .text ul {
+  width: 100%;
+  text-align: start;
+}
+.Swiper-end .swiper_chiled .text ul p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 15px 0;
+}
+.Swiper-end .swiper_chiled .text ul li {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.Swiper-end .swiper_chiled .text ul li span {
+  font-size: 18px;
+}
+.Swiper-end .swiper_chiled .text button {
+  padding: 13px 30px;
+  background: #22b3c1;
+  border: none;
+  border-radius: 26px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.Swiper-end .swiper_chiled .text button a {
+  color: white;
+}
+.Swiper-end .btn-end {
+  position: absolute;
+  bottom: 10px; /* Slayder pastida joylashuv */
+  left: 50%; /* Gorizontal markazlash */
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: 9; /* Ustuvor ko‘rinish */
+}
+.Swiper-end .btn-end .prevarrow, .Swiper-end .btn-end .nextarrow {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #22b3c1;
+  border-radius: 50%;
+  border: 2px solid #22b3c1;
+  font-size: 25px;
+  transition: all 0.2s linear;
+}
+.Swiper-end .btn-end .prevarrow:hover, .Swiper-end .btn-end .nextarrow:hover {
+  background: #22b3c1;
+  color: #fff;
+}/*# sourceMappingURL=MainSwiper.css.map */

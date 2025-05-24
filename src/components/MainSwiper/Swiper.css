@@ -1,0 +1,239 @@
+.Main-Swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.Main-Swiper .chailid-swiper {
+  width: 420px;
+  height: 350px;
+  display: flex;
+  position: relative;
+}
+.Main-Swiper .chailid-swiper img {
+  width: 280px;
+  height: 100%;
+  border-radius: 26px 0 0 26px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+.Main-Swiper .chailid-swiper .text-swp {
+  width: 270px;
+  height: 350px;
+  position: absolute;
+  z-index: 5;
+  background-color: #fff;
+  border-radius: 23px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-40%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+.Main-Swiper .chailid-swiper .text-swp .oel {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 35px 0;
+}
+.Main-Swiper .chailid-swiper .text-swp .oel h3 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  text-transform: capitalize;
+  font-weight: 800;
+  opacity: 0.7;
+}
+.Main-Swiper .chailid-swiper .text-swp .oel h3 span {
+  color: gray;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Main-Swiper .chailid-swiper .text-swp .oel h3:nth-child(2) {
+  color: #22b3c1;
+}
+.Main-Swiper .chailid-swiper .text-swp .oel h3:nth-child(2) span {
+  color: gray;
+}
+.Main-Swiper .chailid-swiper .text-swp .end {
+  width: 100%;
+  height: auto;
+}
+.Main-Swiper .chailid-swiper .text-swp .end ul {
+  width: 100%;
+}
+.Main-Swiper .chailid-swiper .text-swp .end ul p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.Main-Swiper .chailid-swiper .text-swp .end ul li {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.Main-Swiper .chailid-swiper .text-swp .end ul li span {
+  font-size: 18px;
+}
+.Main-Swiper .chailid-swiper .text-swp button {
+  padding: 13px 30px;
+  background: #22b3c1;
+  border: none;
+  border-radius: 26px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.Main-Swiper .chailid-swiper .text-swp button a {
+  color: white;
+}
+
+.swipernav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 0;
+}
+.swipernav .nextarrow, .swipernav .prevarrow {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #22b3c1;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  border: 2px solid #22b3c1;
+  transition: all 0.2s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swipernav .nextarrow:hover, .swipernav .prevarrow:hover {
+  background: #22b3c1;
+  color: #fff;
+}
+
+@media screen and (max-width: 447px) {
+  .Main-Swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .Main-Swiper .chailid-swiper {
+    width: 420px;
+    height: 350px;
+    display: flex;
+    position: relative;
+  }
+  .Main-Swiper .chailid-swiper img {
+    width: 280px;
+    height: 100%;
+    border-radius: 26px 0 0 26px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+  }
+  .Main-Swiper .chailid-swiper .text-swp {
+    width: 270px;
+    height: 350px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 23px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-40%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .oel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px 0;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .oel h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    line-height: 25px;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .oel h3 span {
+    color: gray;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .end {
+    width: 100%;
+    height: auto;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .end ul {
+    width: 100%;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .end ul p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .end ul li {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  .Main-Swiper .chailid-swiper .text-swp .end ul li span {
+    font-size: 18px;
+  }
+  .Main-Swiper .chailid-swiper .text-swp button {
+    padding: 13px 30px;
+    background: #22b3c1;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .Main-Swiper .btn {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  .Main-Swiper .btn .nextarrow, .Main-Swiper .btn .prevarrow {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #22b3c1;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    border: 2px solid #22b3c1;
+    transition: all 0.2s linear;
+  }
+  .Main-Swiper .btn .nextarrow:hover, .Main-Swiper .btn .prevarrow:hover {
+    background: #22b3c1;
+    color: #fff;
+  }
+}/*# sourceMappingURL=Swiper.css.map */

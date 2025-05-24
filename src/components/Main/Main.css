@@ -1,0 +1,1157 @@
+main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 70px;
+}
+main .container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+main .container .main-swiper {
+  width: 100%;
+  height: auto;
+}
+main .container .main-swiper .text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+main .container .main-swiper .text h1 {
+  font-family: "Poppins", sans-serif;
+  color: #2a2a2a;
+  text-transform: capitalize;
+  font-weight: 800;
+  text-shadow: 2px 3px 10px 6px gray;
+  opacity: 0.9;
+}
+main .container .main-swiper .text p {
+  width: 500px;
+  font-size: 16px;
+  color: rgb(174, 170, 170);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 30px auto;
+}
+main .container .main-swiper-end {
+  width: 100%;
+  height: auto;
+}
+main .container .main-swiper-end .text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 50px 0;
+}
+main .container .main-swiper-end .text h1 {
+  font-family: "Poppins", sans-serif;
+  color: #2a2a2a;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+main .container .main-swiper-end .text p {
+  width: auto;
+  font-size: 16px;
+  color: #b5afaf;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 30px auto;
+}
+main .container .main-parent-explore {
+  width: 100%;
+  height: auto;
+}
+main .container .main-parent-explore .Explore {
+  width: 1200px;
+  height: auto;
+  margin: 100px auto;
+}
+main .container .main-parent-explore .Explore .text {
+  width: 100%;
+  text-align: start;
+}
+main .container .main-parent-explore .Explore .text h1 {
+  width: 460px;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin: 25px 0;
+  font-weight: 800;
+}
+main .container .main-parent-explore .Explore .text p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  width: 450px;
+}
+main .container .main-parent-explore .Explore .explore-box {
+  width: 1100px;
+  height: 270px;
+  margin: 45px 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .main-parent-explore .Explore .explore-box img {
+  width: 380px;
+  border-radius: 16px;
+}
+main .container .main-parent-explore .Explore .explore-box .text {
+  width: 680px;
+}
+main .container .main-parent-explore .Explore .explore-box .text .top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-parent-explore .Explore .explore-box .text .top h2 {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+main .container .main-parent-explore .Explore .explore-box .text .top h2 span {
+  color: #8e8d8d;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+}
+main .container .main-parent-explore .Explore .explore-box .text .top button {
+  padding: 14px 25px;
+  border: none;
+  background: #22b3c1;
+  border-radius: 22px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+main .container .main-parent-explore .Explore .explore-box .text .top button a {
+  color: white;
+}
+main .container .main-parent-explore .Explore .explore-box .text p {
+  width: 100%;
+  font-size: 17px;
+  margin: 35px 0;
+  color: #b6b5b5;
+  line-height: 25px;
+}
+main .container .main-parent-explore .Countries {
+  width: 100%;
+  height: auto;
+}
+main .container .main-parent-explore .Countries .text-top {
+  width: 100%;
+  text-align: start;
+  margin-bottom: 50px;
+}
+main .container .main-parent-explore .Countries .text-top h1 {
+  width: 460px;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin: 25px 0;
+  font-weight: 800;
+}
+main .container .main-parent-explore .Countries .text-top p {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  width: 480px;
+  line-height: 25px;
+}
+main .container .main-parent-explore .Countries .countres-box {
+  width: 1100px;
+  height: auto;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .main-parent-explore .Countries .countres-box img {
+  width: 380px;
+  height: 300px;
+  border-radius: 16px;
+}
+main .container .main-parent-explore .Countries .countres-box .text {
+  width: 680px;
+}
+main .container .main-parent-explore .Countries .countres-box .text .top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-parent-explore .Countries .countres-box .text .top h2 {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+main .container .main-parent-explore .Countries .countres-box .text .top h2 span {
+  color: #8e8d8d;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+}
+main .container .main-parent-explore .Countries .countres-box .text .top button {
+  padding: 14px 25px;
+  border: none;
+  color: white;
+  background: #22b3c1;
+  border-radius: 22px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+main .container .main-parent-explore .Countries .countres-box .text .top button a {
+  width: auto;
+  color: white;
+}
+main .container .main-parent-explore .Countries .countres-box .text p {
+  width: 100%;
+  font-size: 17px;
+  margin: 35px 0;
+  color: #b6b5b5;
+  line-height: 25px;
+  margin: 15px 0;
+  font-family: "Poppins", sans-serif;
+}
+main .container .main-parent-explore .Countries .countres-box .text .icons {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(175, 172, 172);
+  border-top: 1px solid rgb(183, 179, 179);
+  margin: 0 0 10px 0;
+}
+main .container .main-parent-explore .Countries .countres-box .text a {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  color: #22b3c1;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s linear;
+}
+main .container .main-parent-explore .Countries .countres-box .text a span {
+  font-size: 18px;
+}
+main .container .main-parent-explore .Countries .countres-box .text a:hover span {
+  transform: translateX(5px);
+}
+
+@media screen and (max-width: 447px) {
+  main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 70px;
+  }
+  main .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  main .container .main-swiper {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px;
+  }
+  main .container .main-swiper .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper .text p {
+    width: 90%;
+    font-size: 16px;
+    color: #595757;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-swiper-end {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper-end .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0;
+  }
+  main .container .main-swiper-end .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper-end .text p {
+    width: auto;
+    font-size: 16px;
+    color: #7c7a7a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-parent-explore {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Explore {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+  }
+  main .container .main-parent-explore .Explore .text {
+    width: 100%;
+    text-align: start;
+  }
+  main .container .main-parent-explore .Explore .text h1 {
+    width: auto;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Explore .text p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: 90%;
+  }
+  main .container .main-parent-explore .Explore .explore-box {
+    width: 100%;
+    height: auto;
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Explore .explore-box img {
+    width: 100%;
+    border-radius: 16px;
+    margin: 0 0 25px 0;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text {
+    width: 100%;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top button {
+    padding: 14px 35px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Countries .text-top {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  main .container .main-parent-explore .Countries .text-top h1 {
+    width: 100%;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  main .container .main-parent-explore .Countries .text-top p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: auto;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries .countres-box {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Countries .countres-box img {
+    width: 100%;
+    height: 220px;
+    border-radius: 16px;
+    margin: 15px auto;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text {
+    width: 100%;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text p {
+    width: auto;
+    font-size: 13px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 20px;
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    border-top: 1px solid rgb(183, 179, 179);
+    margin: 0 0 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: #22b3c1;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a span {
+    font-size: 18px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a:hover span {
+    transform: translateX(5px);
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 70px;
+  }
+  main .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  main .container .main-swiper {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px;
+  }
+  main .container .main-swiper .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper .text p {
+    width: 90%;
+    font-size: 16px;
+    color: #595757;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-swiper-end {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper-end .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0;
+  }
+  main .container .main-swiper-end .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper-end .text p {
+    width: auto;
+    font-size: 16px;
+    color: #7c7a7a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-parent-explore {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Explore {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+  }
+  main .container .main-parent-explore .Explore .text {
+    width: 100%;
+    text-align: start;
+  }
+  main .container .main-parent-explore .Explore .text h1 {
+    width: auto;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Explore .text p {
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+  }
+  main .container .main-parent-explore .Explore .explore-box {
+    width: 100%;
+    height: auto;
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Explore .explore-box img {
+    width: 330px;
+    border-radius: 16px;
+    margin: 20px auto;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text {
+    width: 680px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Countries .text-top {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  main .container .main-parent-explore .Countries .text-top h1 {
+    width: auto;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Countries .text-top p {
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries .countres-box {
+    width: auto;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .main-parent-explore .Countries .countres-box img {
+    width: 330px;
+    height: 300px;
+    border-radius: 16px;
+    margin: 20px auto;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text {
+    width: auto;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    border-top: 1px solid rgb(183, 179, 179);
+    margin: 0 0 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: #22b3c1;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a span {
+    font-size: 18px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a:hover span {
+    transform: translateX(5px);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 70px;
+  }
+  main .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  main .container .main-swiper {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px;
+  }
+  main .container .main-swiper .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper .text p {
+    width: 90%;
+    font-size: 16px;
+    color: #595757;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-swiper-end {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper-end .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0;
+  }
+  main .container .main-swiper-end .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper-end .text p {
+    width: auto;
+    font-size: 16px;
+    color: #7c7a7a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-parent-explore {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Explore {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+  }
+  main .container .main-parent-explore .Explore .text {
+    width: 100%;
+    text-align: start;
+  }
+  main .container .main-parent-explore .Explore .text h1 {
+    width: auto;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Explore .text p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: 450px;
+  }
+  main .container .main-parent-explore .Explore .explore-box {
+    width: auto;
+    height: 270px;
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .container .main-parent-explore .Explore .explore-box img {
+    width: 30%;
+    border-radius: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text {
+    width: 67%;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Countries .text-top {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  main .container .main-parent-explore .Countries .text-top h1 {
+    width: 460px;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Countries .text-top p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: 450px;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries .countres-box {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .container .main-parent-explore .Countries .countres-box img {
+    width: 30%;
+    border-radius: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text {
+    width: 67%;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    border-top: 1px solid rgb(183, 179, 179);
+    margin: 0 0 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: #22b3c1;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a span {
+    font-size: 18px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a:hover span {
+    transform: translateX(5px);
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 70px;
+  }
+  main .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  main .container .main-swiper {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 150px;
+  }
+  main .container .main-swiper .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper .text p {
+    width: 90%;
+    font-size: 16px;
+    color: #595757;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-swiper-end {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-swiper-end .text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0;
+  }
+  main .container .main-swiper-end .text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    text-transform: capitalize;
+  }
+  main .container .main-swiper-end .text p {
+    width: auto;
+    font-size: 16px;
+    color: #7c7a7a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30px auto;
+  }
+  main .container .main-parent-explore {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Explore {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+  }
+  main .container .main-parent-explore .Explore .text {
+    width: 100%;
+    text-align: start;
+  }
+  main .container .main-parent-explore .Explore .text h1 {
+    width: auto;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Explore .text p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: 450px;
+  }
+  main .container .main-parent-explore .Explore .explore-box {
+    width: auto;
+    height: 270px;
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .container .main-parent-explore .Explore .explore-box img {
+    width: 30%;
+    border-radius: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text {
+    width: 67%;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Explore .explore-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries {
+    width: 100%;
+    height: auto;
+  }
+  main .container .main-parent-explore .Countries .text-top {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  main .container .main-parent-explore .Countries .text-top h1 {
+    width: 460px;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin: 25px 0;
+  }
+  main .container .main-parent-explore .Countries .text-top p {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    width: 450px;
+    line-height: 25px;
+  }
+  main .container .main-parent-explore .Countries .countres-box {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .container .main-parent-explore .Countries .countres-box img {
+    width: 30%;
+    border-radius: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text {
+    width: 67%;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 {
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top h2 span {
+    color: #8e8d8d;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .top button {
+    padding: 14px 25px;
+    border: none;
+    color: white;
+    background: #22b3c1;
+    border-radius: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text p {
+    width: 100%;
+    font-size: 17px;
+    margin: 35px 0;
+    color: #b6b5b5;
+    line-height: 25px;
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text .icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(175, 172, 172);
+    border-top: 1px solid rgb(183, 179, 179);
+    margin: 0 0 10px 0;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: #22b3c1;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a span {
+    font-size: 18px;
+  }
+  main .container .main-parent-explore .Countries .countres-box .text a:hover span {
+    transform: translateX(5px);
+  }
+}/*# sourceMappingURL=Main.css.map */

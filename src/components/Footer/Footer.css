@@ -1,0 +1,334 @@
+.footer {
+  width: 100%;
+  height: 350px;
+}
+.footer .container {
+  width: 100%;
+  height: 280px;
+  background: url(../../../public/Footer/footerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer .container .text {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .container .text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 40px;
+}
+.footer .container .text h1 span {
+  display: block;
+  font-size: 20px;
+}
+.footer .container .text button {
+  padding: 15px 35px;
+  background: #22b3c1;
+  color: white;
+  border-radius: 26px;
+  border: 1px solid white;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s linear;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer .container .text button a {
+  color: #fff;
+}
+.footer .container .text button:hover {
+  background: #fff;
+}
+.footer .container .text button:hover a {
+  color: #22b3c1;
+}
+.footer .footer-end {
+  width: 100%;
+  height: 70px;
+  background: #22b3c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-end p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.footer .footer-end p a {
+  color: white;
+}
+
+@media screen and (max-width: 447px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer .container {
+    width: 100%;
+    height: 280px;
+    background: url(../../../public/Footer/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+  }
+  .footer .container .text {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer .container .text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+  }
+  .footer .container .text h1 span {
+    display: block;
+    font-size: 15px;
+  }
+  .footer .container .text button {
+    padding: 15px 35px;
+    background: #22b3c1;
+    color: white;
+    border-radius: 26px;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .footer .container .text button:hover {
+    background: #fff;
+    color: #22b3c1;
+  }
+  .footer .footer-end {
+    width: 100%;
+    height: 70px;
+    background: #22b3c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-end p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+  .footer .footer-end p a {
+    color: white;
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer .container {
+    width: 100%;
+    height: 280px;
+    background: url(../../../public/Footer/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+  }
+  .footer .container .text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer .container .text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+  }
+  .footer .container .text h1 span {
+    display: block;
+    font-size: 15px;
+  }
+  .footer .container .text button {
+    padding: 15px 35px;
+    background: #22b3c1;
+    color: white;
+    border-radius: 26px;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .footer .container .text button:hover {
+    background: #fff;
+    color: #22b3c1;
+  }
+  .footer .footer-end {
+    width: 100%;
+    height: 70px;
+    background: #22b3c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-end p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+  .footer .footer-end p a {
+    color: white;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer .container {
+    width: 100%;
+    height: 280px;
+    background: url(../../../public/Footer/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .footer .container .text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer .container .text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+  }
+  .footer .container .text h1 span {
+    display: block;
+    font-size: 15px;
+  }
+  .footer .container .text button {
+    padding: 15px 35px;
+    background: #22b3c1;
+    color: white;
+    border-radius: 26px;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .footer .container .text button:hover {
+    background: #fff;
+    color: #22b3c1;
+  }
+  .footer .footer-end {
+    width: 100%;
+    height: 70px;
+    background: #22b3c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-end p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+  .footer .footer-end p a {
+    color: white;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .footer {
+    width: 100%;
+    height: 350px;
+  }
+  .footer .container {
+    width: 100%;
+    height: 280px;
+    background: url(../../../public/Footer/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .footer .container .text {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer .container .text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 40px;
+  }
+  .footer .container .text h1 span {
+    display: block;
+    font-size: 20px;
+  }
+  .footer .container .text button {
+    padding: 15px 35px;
+    background: #22b3c1;
+    color: white;
+    border-radius: 26px;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s linear;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .footer .container .text button:hover {
+    background: #fff;
+    color: #22b3c1;
+  }
+  .footer .footer-end {
+    width: 100%;
+    height: 70px;
+    background: #22b3c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-end p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .footer .footer-end p a {
+    color: white;
+  }
+}/*# sourceMappingURL=Footer.css.map */

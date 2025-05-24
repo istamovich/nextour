@@ -1,0 +1,471 @@
+@charset "UTF-8";
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 9;
+  transition: all 0.2s linear;
+  opacity: 0.9;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+.navbar.scrolled {
+  background-color: #22b3c1;
+}
+.navbar .container {
+  width: 1346px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0 0 55px;
+}
+.navbar .container .logo {
+  width: 155px;
+  height: auto;
+}
+.navbar .container .logo h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.navbar .container ul {
+  display: flex;
+  gap: 50px;
+  margin-right: -35px;
+}
+.navbar .container ul li {
+  text-transform: capitalize;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.navbar .container ul li a {
+  color: #fff;
+  transition: all 0.1s linear;
+}
+.navbar .container ul li a:hover {
+  opacity: 0.9;
+}
+.navbar .container ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+  transform: translateX(-50%);
+  opacity: 0.7;
+}
+.navbar .container ul li:hover::after {
+  width: 100%;
+}
+.navbar .container .nav-concat {
+  display: flex;
+  gap: 20px;
+}
+.navbar .container .nav-concat .nav-languech {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20p;
+}
+.navbar .container .nav-concat .nav-languech .translate {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.navbar .container .nav-concat .nav-languech .translate:hover {
+  color: black;
+}
+.navbar .container .nav-concat .icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar .container .nav-concat .icons .icon {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+.navbar .container .nav-concat .icons .bars {
+  display: none;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+}
+.navbar .Open {
+  width: 70%;
+  height: 445px;
+  background: #f7f7f7;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 5;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.navbar .Open ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.navbar .Open ul li {
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #c4bcbc;
+}
+.navbar .Open ul li a {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: rgb(37, 36, 36);
+}
+.navbar .Open .nav-languech {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.navbar .Open .nav-languech .translate {
+  width: 100%;
+  border-bottom: 1px solid #c4bcbc;
+  padding: 15px 0;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: rgb(37, 36, 36);
+}
+.navbar .Open .icons {
+  width: 100%;
+  text-align: center;
+}
+.navbar .Open .icons .icon {
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #c4bcbc;
+}
+.navbar .Open.activ {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 447px) {
+  .navbar {
+    width: 100%;
+    height: 90px;
+  }
+  .navbar .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .navbar .container .logo {
+    width: 115px;
+  }
+  .navbar .container .logo img {
+    width: 100%;
+  }
+  .navbar .container ul {
+    display: none;
+  }
+  .navbar .container .nav-concat .nav-languech {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons .icon {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons .bars {
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .navbar .Open {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .navbar {
+    width: 100%;
+    height: 70px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .navbar .container {
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+  }
+  .navbar .container .logo {
+    width: 145px;
+    height: auto;
+  }
+  .navbar .container .logo img {
+    width: 100%;
+  }
+  .navbar .container ul {
+    display: none;
+  }
+  .navbar .container .nav-concat {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons {
+    display: flex;
+  }
+  .navbar .container .nav-concat .icons .icon {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons .bars {
+    display: flex;
+  }
+  .navbar .Open {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .navbar {
+    width: 100%;
+    height: 70px;
+    -webkit-backdrop-filter: blur(55px);
+            backdrop-filter: blur(55px);
+  }
+  .navbar .container {
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+  }
+  .navbar .container .logo {
+    width: 145px;
+    height: auto;
+  }
+  .navbar .container .logo img {
+    width: 100%;
+  }
+  .navbar .container ul {
+    display: none;
+  }
+  .navbar .container .nav-concat {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons {
+    display: flex;
+  }
+  .navbar .container .nav-concat .icons .icon {
+    display: none;
+  }
+  .navbar .container .nav-concat .icons .bars {
+    display: flex;
+  }
+  .navbar .Open {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .navbar {
+    width: 100%;
+    height: 70px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .navbar .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 40px;
+  }
+  .navbar .container .logo {
+    width: 155px;
+    height: auto;
+  }
+  .navbar .container .logo img {
+    width: 100%;
+  }
+  .navbar .container ul {
+    display: flex;
+    gap: 50px;
+  }
+  .navbar .container ul li {
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar .container ul li a {
+    color: #fff;
+  }
+  .navbar .container .nav-concat {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech .translate {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .navbar .container .nav-concat .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .navbar .container .nav-concat .icons .icon {
+    color: white;
+    font-size: 22px;
+  }
+  .navbar .container .nav-concat .icons .bars {
+    display: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .navbar .Open {
+    width: 350px;
+    height: 400px; /* Boshlang‘ich holat */
+    background: #f7f7f7;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out; /* Ochilish va yopilish animatsiyasi */
+    z-index: 5;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .navbar .Open.activ {
+    height: 100%;
+    height: 400px;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1346px) {
+  .navbar {
+    width: 100%;
+    height: 70px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .navbar .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 50px;
+  }
+  .navbar .container .logo {
+    width: 155px;
+    height: auto;
+  }
+  .navbar .container .logo img {
+    width: 100%;
+  }
+  .navbar .container ul {
+    display: flex;
+    gap: 50px;
+  }
+  .navbar .container ul li {
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar .container ul li a {
+    color: #fff;
+  }
+  .navbar .container .nav-concat {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar .container .nav-concat .nav-languech .translate {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .navbar .container .nav-concat .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .navbar .container .nav-concat .icons .icon {
+    color: white;
+    font-size: 22px;
+  }
+  .navbar .container .nav-concat .icons .bars {
+    display: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .navbar .Open {
+    width: 350px;
+    height: 400px; /* Boshlang‘ich holat */
+    background: #f7f7f7;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out; /* Ochilish va yopilish animatsiyasi */
+    z-index: 5;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .navbar .Open.activ {
+    height: 100%;
+    height: 400px;
+    visibility: visible;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

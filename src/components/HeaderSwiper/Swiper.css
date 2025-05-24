@@ -1,0 +1,558 @@
+.HeaderSwiper {
+  width: 100%;
+  height: 100vh;
+  transition: all 0.2s linear !important;
+  overflow: hidden;
+}
+.HeaderSwiper .chiled-swiper {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 0 0;
+}
+.HeaderSwiper .chiled-swiper:first-child {
+  background: url(../../../public/HeaderImg/Dubay.jpg) center center no-repeat;
+  background-size: cover;
+}
+.HeaderSwiper .chiled-swiper:nth-child(2) {
+  background: url(../../../public/HeaderImg/Turkey.jpg) center center no-repeat;
+  background-size: cover;
+}
+.HeaderSwiper .chiled-swiper:nth-child(3) {
+  background: url(../../../public/HeaderImg/Filipin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.HeaderSwiper .chiled-swiper:nth-child(4) {
+  background: url(../../../public/HeaderImg/photo_2023-05-06_02-50-37.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.HeaderSwiper .chiled-swiper:nth-child(5) {
+  background: url(../../../public/Main-swiper/photo_2025-02-20_22-05-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.HeaderSwiper .chiled-swiper:nth-child(6) {
+  background: url(../../../public/HeaderImg/photo_2025-02-21_16-27-50.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.HeaderSwiper .chiled-swiper .container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  color: rgb(234, 229, 229);
+  font-weight: 600;
+  margin: 35px 0;
+  font-weight: 800;
+  text-shadow: 20px 3px 8px 10px grey;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-text button {
+  padding: 15px 35px;
+  border-radius: 26px;
+  background: #2cafbb;
+  border: none;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-text button a {
+  color: white;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more {
+  width: 100%;
+  height: 120px;
+  border-radius: 61px;
+  margin: 90px 0 0 0;
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #2cafbb;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text h2 {
+  color: #2cafbb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses button {
+  padding: 15px 40px;
+  border: none;
+  background: #2cafbb;
+  border-radius: 26px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.HeaderSwiper .chiled-swiper .container .swiper-more .boxses button a {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 477px) {
+  .HeaderSwiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .HeaderSwiper .chiled-swiper {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .HeaderSwiper .chiled-swiper .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text button {
+    padding: 15px 35px;
+    border-radius: 16px;
+    background: #2cafbb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more {
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 46px;
+    margin: 25px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses {
+    width: 90%;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #2cafbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #2cafbb;
+    position: relative;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text {
+    width: auto;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text p {
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text h2 {
+    color: #2cafbb;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses button {
+    padding: 15px 20px;
+    border: none;
+    background: #2cafbb;
+    color: white;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 477px) and (max-width: 769px) {
+  .HeaderSwiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .HeaderSwiper .chiled-swiper {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .HeaderSwiper .chiled-swiper .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text button {
+    padding: 15px 40px;
+    border-radius: 16px;
+    background: #2cafbb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more {
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 46px;
+    margin: 25px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses {
+    width: 90%;
+    height: 230px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #2cafbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #2cafbb;
+    position: relative;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text {
+    width: auto;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text p {
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text h2 {
+    color: #2cafbb;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses button {
+    padding: 15px 20px;
+    border: none;
+    background: #2cafbb;
+    color: white;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .HeaderSwiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .HeaderSwiper .chiled-swiper {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .HeaderSwiper .chiled-swiper .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text button {
+    padding: 15px 30px;
+    border-radius: 16px;
+    background: #2cafbb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more {
+    width: 80%;
+    height: 220px;
+    background: white;
+    border-radius: 46px;
+    margin: 25px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #2cafbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #2cafbb;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text p {
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text h2 {
+    color: #2cafbb;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses button {
+    padding: 15px 15px;
+    border: none;
+    background: #2cafbb;
+    color: white;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .HeaderSwiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .HeaderSwiper .chiled-swiper {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .HeaderSwiper .chiled-swiper .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-text button {
+    padding: 15px 30px;
+    border-radius: 16px;
+    background: #2cafbb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more {
+    width: 100%;
+    height: 120px;
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    border-radius: 46px;
+    margin: 25px 0;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #2cafbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #2cafbb;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text p {
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses .box .text h2 {
+    color: #2cafbb;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  .HeaderSwiper .chiled-swiper .container .swiper-more .boxses button {
+    padding: 15px 15px;
+    border: none;
+    background: #2cafbb;
+    color: white;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=Swiper.css.map */
